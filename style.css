@@ -1,0 +1,45 @@
+body{
+
+}
+
+.container{
+    height: 40px;
+    width: 20px;
+    display: flex;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px black;
+}
+
+.container:hover{
+    width: 400px;
+}
+
+.container:hover input{
+    width:  400px;
+    transition: 1s;
+}
+
+
+
+
+.container input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    
+    background: transparent;
+}
+
+input, placeholder{
+    font-size: 18px;
+}
+
+.container a .fas{
+    color: rgb(255, 3 ,3);
+    font-size:18px;
+}
